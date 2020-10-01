@@ -63,6 +63,7 @@ public class ArrayLists {
 		ls_collection.remove(ls_collection.size() - 1); 						// [20,30,40,50,60,70,80]
 		ls_collection.remove(ls_collection.indexOf(20)); 						// [30,40,50,60,70,80]
 		ls_collection.removeAll(Arrays.asList(j)); 								// [30,40,50,80]
+		ls.removeRange(0,2);       									//[[50,80]
 		ls_collection.clear(); 													// []
 
 //----Sort---//
